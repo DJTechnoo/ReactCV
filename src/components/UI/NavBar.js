@@ -30,6 +30,7 @@ const NavBar = () => {
 
             `}
         </style>
+
         <Nav variant="pills">
             <Nav.Item>
                 <LinkContainer to="skills">
@@ -37,8 +38,8 @@ const NavBar = () => {
                 </LinkContainer>
             </Nav.Item>
             <Nav.Item>
-                <LinkContainer to="page2">
-                    <Nav.Link eventKey="link-2">Page 2</Nav.Link>
+                <LinkContainer to="art">
+                    <Nav.Link eventKey="link-2">My Art</Nav.Link>
                 </LinkContainer>
             </Nav.Item>
             <Nav.Item>
