@@ -38,13 +38,13 @@ const NavBar = () => {
                 </LinkContainer>
             </Nav.Item>
             <Nav.Item>
-                <LinkContainer to="art">
-                    <Nav.Link eventKey="link-2">My Art</Nav.Link>
+                <LinkContainer to="experiences">
+                    <Nav.Link eventKey="link-2">Experiences</Nav.Link>
                 </LinkContainer>
             </Nav.Item>
             <Nav.Item>
-                <LinkContainer to="page3">
-                    <Nav.Link eventKey="link-3">Page 3</Nav.Link>
+                <LinkContainer to="art">
+                    <Nav.Link eventKey="link-3">My Art</Nav.Link>
                 </LinkContainer>
             </Nav.Item>
             <h2>Askel Eirik Johansson</h2>

@@ -1,9 +1,13 @@
-import React, {useRef, useEffect} from 'react';
+import React, { useRef, useEffect} from 'react';
 
 
 const Canvas = () => {
     let ref = useRef();
     let x = 200;
+
+    const mouseMove = e => {
+        console.log(e.clientX + "  " + e.clientY);
+    }
     
     useEffect(() => {
             const render = () => {
@@ -21,7 +25,7 @@ const Canvas = () => {
     
  
     return(
-        <div>
+        <div className="Nanvas" onMouseMove={mouseMove}>
             <canvas ref={ref} width={640} height={425} />
         </div>
     )
