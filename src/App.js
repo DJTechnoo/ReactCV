@@ -23,9 +23,9 @@ const App = () => {
         <NavBar/>
         <Image src="MCA.jpg" fluid></Image>
         <Switch>
-          <Route exact path="/skills" component={Skills}/>
-          <Route exact path="/experiences" component={Experiences}/>
-          <Route exact path="/art" component={MyArt}/>
+          <Route exact path={process.env.PUBLIC_URL + "/skills"} component={Skills}/>
+          <Route exact path={process.env.PUBLIC_URL + "/experiences"} component={Experiences}/>
+          <Route exact path={process.env.PUBLIC_URL + "/art"} component={MyArt}/>
         </Switch>
 
       </Router>

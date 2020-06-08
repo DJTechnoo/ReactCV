@@ -6,10 +6,11 @@ import {Fade} from 'react-reveal';
 const Skills = () => {
 
     const progLangs = [
-        {label: "C++", prog: 70},
-        {label: "JS", prog: 70},
-        {label: "React", prog: 50},
-        {label: "PHP", prog: 30},
+        {label: "C++", prog: 80},
+        {label: "JS", prog: 80},
+        {label: "React", prog: 65},
+        {label: "PHP", prog: 50},
+        {label: "SQL", prog: 50}
     ];
 
     const langs = [
