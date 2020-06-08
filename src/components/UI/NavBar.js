@@ -47,6 +47,11 @@ const NavBar = () => {
                     <Nav.Link eventKey="link-3">My Art</Nav.Link>
                 </LinkContainer>
             </Nav.Item>
+            <Nav.Item>
+                <LinkContainer to="github">
+                    <Nav.Link eventKey="link-4">Github</Nav.Link>
+                </LinkContainer>
+            </Nav.Item>
             <h2>Askel Eirik Johansson</h2>
         </Nav>
         </>

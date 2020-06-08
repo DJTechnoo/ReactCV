@@ -9,6 +9,7 @@ import Image from 'react-bootstrap/Image';
 import Skills from './components/pages/Skills';
 import MyArt from './components/pages/MyArt';
 import Experiences from './components/pages/Experiences';
+import MyGitHub from './components/pages/MyGitHub';
 import {Helmet} from 'react-helmet';
 import './App.css';
 
@@ -23,9 +24,10 @@ const App = () => {
         <NavBar/>
         <Image src="MCA.jpg" fluid></Image>
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL + "/skills"} component={Skills}/>
-          <Route exact path={process.env.PUBLIC_URL + "/experiences"} component={Experiences}/>
-          <Route exact path={process.env.PUBLIC_URL + "/art"} component={MyArt}/>
+          <Route path={"/skills"} component={Skills}/>
+          <Route path={"/experiences"} component={Experiences}/>
+          <Route path={"/art"} component={MyArt}/>
+          <Route path={"/github"} component={MyGitHub}/>
         </Switch>
 
       </Router>
