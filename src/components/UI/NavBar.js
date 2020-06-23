@@ -33,6 +33,11 @@ const NavBar = () => {
 
         <Nav variant="pills">
             <Nav.Item>
+                <LinkContainer to="home">
+                    <Nav.Link eventKey="link-0">Home</Nav.Link>
+                </LinkContainer>
+            </Nav.Item>
+            <Nav.Item>
                 <LinkContainer to="skills">
                     <Nav.Link eventKey="link-1">Skills</Nav.Link>
                 </LinkContainer>
@@ -44,12 +49,12 @@ const NavBar = () => {
             </Nav.Item>
             <Nav.Item>
                 <LinkContainer to="art">
-                    <Nav.Link eventKey="link-3">My Art</Nav.Link>
+                    <Nav.Link eventKey="link-3">My music</Nav.Link>
                 </LinkContainer>
             </Nav.Item>
             <Nav.Item>
                 <LinkContainer to="github">
-                    <Nav.Link eventKey="link-4">Github</Nav.Link>
+                    <Nav.Link eventKey="link-4">Projects</Nav.Link>
                 </LinkContainer>
             </Nav.Item>
             <h2>Askel Eirik Johansson</h2>
